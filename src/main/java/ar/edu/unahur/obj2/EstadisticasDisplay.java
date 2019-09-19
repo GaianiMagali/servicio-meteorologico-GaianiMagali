@@ -1,6 +1,7 @@
 package ar.edu.unahur.obj2;
 
-public class CondicionesActualesDisplay implements Display{
+public class EstadisticasDisplay {
+
     private double temperatura;
     private double presion;
     private double humedad;
@@ -23,4 +24,5 @@ public class CondicionesActualesDisplay implements Display{
         System.out.println(sb.toString());
 
     }
+
 }
